@@ -2,15 +2,44 @@
 
 A new Flutter project.
 
-## Getting Started
+تطبيق Flutter بسيط يُستخدم لإنشاء بنك أسئلة للامتحانات. يمكن للمستخدمين:
 
-This project is a starting point for a Flutter application.
+إضافة أسئلة متعددة الخيارات.
 
-A few resources to get you started if this is your first Flutter project:
+تحديد الإجابة الصحيحة.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+تعديل الأسئلة أو حذفها.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+بدء اختبار تفاعلي وعرض الأسئلة فيه.
+
+تخزين البيانات محليًا باستخدام shared_preferences أو sqflite.
+
+يهدف المشروع إلى تسهيل إنشاء، عرض، وتقييم الاختبارات بطريقة سهلة وفعالة.
+
+ Project Description (English):
+A simple Flutter application for building and managing a question bank with interactive quizzes. Users can:
+
+Add multiple-choice questions.
+
+Select the correct answer.
+
+Edit or delete existing questions.
+
+Start a test session and view questions interactively.
+
+Store question data locally using shared_preferences or sqflite.
+
+This project aims to make creating and managing exams easy, efficient, and accessible.
+
+ Technologies Used:
+ 
+Flutter SDK
+
+Dart
+
+sqflite (for local database)
+
+shared_preferences (for storing preferences/settings)
+
+Custom UI Screens (Login, Quiz Creation, Quiz Taking)
+
